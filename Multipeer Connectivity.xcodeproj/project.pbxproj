@@ -12,6 +12,7 @@
 		F67E454A1E5591AD00E87F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67E45481E5591AD00E87F09 /* Main.storyboard */; };
 		F67E454C1E5591AD00E87F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67E454B1E5591AD00E87F09 /* Assets.xcassets */; };
 		F67E454F1E5591AD00E87F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67E454D1E5591AD00E87F09 /* LaunchScreen.storyboard */; };
+		F67E45571E55938700E87F09 /* ColorServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67E45561E55938700E87F09 /* ColorServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F67E454B1E5591AD00E87F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67E454E1E5591AD00E87F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F67E45501E5591AD00E87F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67E45561E55938700E87F09 /* ColorServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				F67E45441E5591AD00E87F09 /* AppDelegate.swift */,
+				F67E45561E55938700E87F09 /* ColorServiceManager.swift */,
 				F67E45461E5591AD00E87F09 /* ViewController.swift */,
 				F67E45481E5591AD00E87F09 /* Main.storyboard */,
 				F67E454B1E5591AD00E87F09 /* Assets.xcassets */,
@@ -96,6 +99,11 @@
 				TargetAttributes = {
 					F67E45401E5591AB00E87F09 = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,6 +145,7 @@
 			files = (
 				F67E45471E5591AD00E87F09 /* ViewController.swift in Sources */,
 				F67E45451E5591AD00E87F09 /* AppDelegate.swift in Sources */,
+				F67E45571E55938700E87F09 /* ColorServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
